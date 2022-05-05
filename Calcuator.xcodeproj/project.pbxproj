@@ -13,6 +13,7 @@
 		D304F86A2821631F00C784D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D304F8682821631F00C784D7 /* Main.storyboard */; };
 		D304F86C2821632100C784D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D304F86B2821632100C784D7 /* Assets.xcassets */; };
 		D304F86F2821632100C784D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D304F86D2821632100C784D7 /* LaunchScreen.storyboard */; };
+		D3483B31282411DB00F451B8 /* CalcuatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3483B30282411DB00F451B8 /* CalcuatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D304F86B2821632100C784D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D304F86E2821632100C784D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D304F8702821632100C784D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3483B30282411DB00F451B8 /* CalcuatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D304F877282163D000C784D7 /* Supporting Files */,
 				D304F8762821636F00C784D7 /* Delegates */,
 				D304F8662821631F00C784D7 /* CalcuatorViewController.swift */,
+				D3483B30282411DB00F451B8 /* CalcuatorModel.swift */,
 				D304F8682821631F00C784D7 /* Main.storyboard */,
 				D304F8702821632100C784D7 /* Info.plist */,
 			);
@@ -156,6 +159,7 @@
 			files = (
 				D304F8672821631F00C784D7 /* CalcuatorViewController.swift in Sources */,
 				D304F8632821631F00C784D7 /* AppDelegate.swift in Sources */,
+				D3483B31282411DB00F451B8 /* CalcuatorModel.swift in Sources */,
 				D304F8652821631F00C784D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

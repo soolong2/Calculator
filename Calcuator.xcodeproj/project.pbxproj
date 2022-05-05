@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D304F8632821631F00C784D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304F8622821631F00C784D7 /* AppDelegate.swift */; };
 		D304F8652821631F00C784D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304F8642821631F00C784D7 /* SceneDelegate.swift */; };
-		D304F8672821631F00C784D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304F8662821631F00C784D7 /* ViewController.swift */; };
+		D304F8672821631F00C784D7 /* CalcuatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304F8662821631F00C784D7 /* CalcuatorViewController.swift */; };
 		D304F86A2821631F00C784D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D304F8682821631F00C784D7 /* Main.storyboard */; };
 		D304F86C2821632100C784D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D304F86B2821632100C784D7 /* Assets.xcassets */; };
 		D304F86F2821632100C784D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D304F86D2821632100C784D7 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		D304F85F2821631F00C784D7 /* Calcuator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcuator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D304F8622821631F00C784D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D304F8642821631F00C784D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D304F8662821631F00C784D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D304F8662821631F00C784D7 /* CalcuatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuatorViewController.swift; sourceTree = "<group>"; };
 		D304F8692821631F00C784D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D304F86B2821632100C784D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D304F86E2821632100C784D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,31 @@
 		D304F8612821631F00C784D7 /* Calcuator */ = {
 			isa = PBXGroup;
 			children = (
-				D304F8622821631F00C784D7 /* AppDelegate.swift */,
-				D304F8642821631F00C784D7 /* SceneDelegate.swift */,
-				D304F8662821631F00C784D7 /* ViewController.swift */,
+				D304F877282163D000C784D7 /* Supporting Files */,
+				D304F8762821636F00C784D7 /* Delegates */,
+				D304F8662821631F00C784D7 /* CalcuatorViewController.swift */,
 				D304F8682821631F00C784D7 /* Main.storyboard */,
-				D304F86B2821632100C784D7 /* Assets.xcassets */,
-				D304F86D2821632100C784D7 /* LaunchScreen.storyboard */,
 				D304F8702821632100C784D7 /* Info.plist */,
 			);
 			path = Calcuator;
+			sourceTree = "<group>";
+		};
+		D304F8762821636F00C784D7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D304F8622821631F00C784D7 /* AppDelegate.swift */,
+				D304F8642821631F00C784D7 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D304F877282163D000C784D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D304F86B2821632100C784D7 /* Assets.xcassets */,
+				D304F86D2821632100C784D7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D304F8672821631F00C784D7 /* ViewController.swift in Sources */,
+				D304F8672821631F00C784D7 /* CalcuatorViewController.swift in Sources */,
 				D304F8632821631F00C784D7 /* AppDelegate.swift in Sources */,
 				D304F8652821631F00C784D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFG37AXT2Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calcuator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFG37AXT2Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calcuator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
